@@ -48,11 +48,17 @@ class HomePage extends StatelessWidget {
                     fontSize: 20),
               ),
             ),
+            SizedBox(
+              height: 10,
+            ),
             Row(
               children: [
                 Icon(Icons.visibility_outlined),
                 Text("Current balance "),
               ],
+            ),
+            SizedBox(
+              height: 10,
             ),
             Row(
               children: [
@@ -120,11 +126,16 @@ class HomePage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(5)),
                       child: Row(
                         children: [
-                          Container(
+                          Image.asset(
+                            "images/nike.jpg",
                             height: 50,
                             width: 50,
-                            color: Colors.amber,
                           ),
+                          // Container(
+                          //   height: 50,
+                          //   width: 50,
+                          //   color: Colors.amber,
+                          // ),
                           SizedBox(
                             width: 15,
                           ),
@@ -152,10 +163,10 @@ class HomePage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(5)),
                       child: Row(
                         children: [
-                          Container(
+                          Image.asset(
+                            "images/starbucks.jpeg",
                             height: 50,
                             width: 50,
-                            color: Colors.amber,
                           ),
                           SizedBox(
                             width: 15,
@@ -182,10 +193,10 @@ class HomePage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(5)),
                       child: Row(
                         children: [
-                          Container(
+                          Image.asset(
+                            "images/annajohnson.jpeg",
                             height: 50,
                             width: 50,
-                            color: Colors.amber,
                           ),
                           SizedBox(
                             width: 15,
@@ -218,10 +229,10 @@ class HomePage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(5)),
                       child: Row(
                         children: [
-                          Container(
+                          Image.asset(
+                            "images/deserts.jpeg",
                             height: 50,
                             width: 50,
-                            color: Colors.amber,
                           ),
                           SizedBox(
                             width: 15,
@@ -262,10 +273,10 @@ class HomePage extends StatelessWidget {
                       borderRadius: BorderRadius.circular(5)),
                   child: Row(
                     children: [
-                      Container(
+                      Image.asset(
+                        "images/mcdonalds.jpeg",
                         height: 50,
                         width: 50,
-                        color: Colors.amber,
                       ),
                       SizedBox(
                         width: 15,
