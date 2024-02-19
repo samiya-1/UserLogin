@@ -17,4 +17,4 @@ samples, guidance on mobile development, and a full API reference.
 
 ### Screenshot
 
-![Landing page Screenshot ](screenshots\userlogin.png)
+![Landing page Screenshot ](screenshots/userlogin.png)
